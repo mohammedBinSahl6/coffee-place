@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen animate-page">
       <section className="relative w-full h-lvh overflow-hidden">
         <Image
           src="/hero.jpg"
@@ -23,7 +23,11 @@ export default function Home() {
           unoptimized
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col items-center justify-center bg-[#1E1E1Edd]">
-          <h1 className="text-8xl text-white font-black text-center fixed top-1/3 left-0">
+          <h1
+            className="text-8xl text-white font-black text-center fixed top-1/3 left-0"
+            data-aos="zoom-in-up"
+            data-aos-duration="2200"
+          >
             The Daily Grind: Your Coffee Sanctuary
           </h1>
         </div>
@@ -38,7 +42,11 @@ export default function Home() {
           unoptimized
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col items-center justify-center bg-[#1E1E1Edd]">
-          <h1 className="text-8xl text-white font-black text-center sticky top-0 left-0">
+          <h1
+            className="text-8xl text-white font-black text-center sticky top-0 left-0"
+            data-aos="zoom-out-up"
+            data-aos-duration="2200"
+          >
             The Art of the Bean: Our Coffee Philosophy.
           </h1>
         </div>
@@ -53,7 +61,10 @@ export default function Home() {
           unoptimized
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col items-center justify-center bg-[#1E1E1Ebb]">
-          <h1 className="text-6xl text-white font-black text-center w-1/2 relative">
+          <h1
+            className="text-6xl text-white font-black text-center w-1/2 relative"
+            data-aos="zoom-out-up"
+          >
             From our roastery to your cup, excellence is our standard.
           </h1>
           <Image
@@ -115,11 +126,21 @@ export default function Home() {
           className="w-full sticky top-0 left-0"
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col gap-12 items-center justify-center bg-[#1E1E1Edd]">
-          <h1 className="text-7xl text-white font-black text-center sticky top-0 left-0">
+          <h1
+            className="text-7xl text-white font-black text-center sticky top-0 left-0"
+            data-aos="zoom-out-up"
+            data-aos-duration="2200"
+          >
             Immerse yourself in coffee culture: Workshops, tastings, and more.
           </h1>
           <Link href="/clients" className="w-1/3">
-            <Button variant="secondary" className="p-8 text-base w-full mt-10">
+            <Button
+              variant="secondary"
+              className="p-8 text-base w-full mt-10"
+              data-aos="zoom-in-up"
+              data-aos-duration="2200"
+              data-aos-delay="400"
+            >
               Share
             </Button>
           </Link>

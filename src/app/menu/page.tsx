@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MenuPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-lvh bg-amber-950 animate-page pt-50">
+    <div className="flex flex-col items-center justify-center min-h-lvh bg-amber-950 animate-menu-page pt-50">
       <h1 className="text-white text-5xl mb-10 font-black">Our Menu</h1>
       <div className="flex flex-col items-center justify-center gap-10 md:w-1/2 p-3">
         {menu.map((item) => (

@@ -29,7 +29,7 @@ const Navbar = () => {
           />
         </Link>
         <Link
-          href="/"
+          href="/our-story"
           className={cn(
             "text-white text-xl relative font-bold nav-item hover:text-black transition-all",
             { "text-black": pathname === "/our-story" }
@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </Link>
         <Link
-          href="/"
+          href="/clients"
           className={cn(
             "text-white text-xl relative font-bold nav-item hover:text-black transition-all",
             {
