@@ -1,6 +1,7 @@
 import React from "react";
-import { menu } from "./data";
 import Image from "next/image";
+
+import { menu } from "./data";
 
 const MenuPage = () => {
   return (

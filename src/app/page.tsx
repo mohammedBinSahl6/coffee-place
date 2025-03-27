@@ -1,11 +1,14 @@
 "use client";
-import Image from "next/image";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   useEffect(() => {
     AOS.init();
