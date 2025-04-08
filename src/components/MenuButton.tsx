@@ -22,7 +22,7 @@ const MenuButton = () => {
     <Link
       href="/menu"
       className={cn(
-        "p-5 rounded-full bg-white fixed right-10 bottom-10 cursor-pointer animate-menu flex items-center justify-center transition-slow",
+        "p-5 rounded-full bg-white fixed md:right-10 right-5 bottom-10 cursor-pointer animate-menu flex items-center justify-center transition-slow",
         {
           " w-1/3 h-1/3 bottom-1/3 right-1/3 animate-disappear": clicked,
           "opacity-0": pathname === "/menu",

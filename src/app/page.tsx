@@ -22,12 +22,12 @@ export default function Home() {
           alt="hero"
           width={500}
           height={500}
-          className="w-full fixed top-0 left-0 "
+          className="w-full fixed top-0 left-0 h-lvh object-cover md:h-auto"
           unoptimized
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col items-center justify-center bg-[#1E1E1Edd]">
           <h1
-            className="text-8xl text-white font-black text-center fixed top-1/3 left-0"
+            className="md:text-8xl text-5xl text-white font-black text-center fixed top-1/3 left-0"
             data-aos="zoom-in-up"
             data-aos-duration="2200"
           >
@@ -41,12 +41,12 @@ export default function Home() {
           alt="hero"
           width={500}
           height={500}
-          className="w-full sticky top-0 left-0"
+          className="w-full sticky top-0 left-0 h-lvh object-cover md:h-auto"
           unoptimized
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col items-center justify-center bg-[#1E1E1Edd]">
           <h1
-            className="text-8xl text-white font-black text-center sticky top-0 left-0"
+            className="md:text-8xl text-5xl text-white font-black text-center sticky top-0 left-0"
             data-aos="zoom-out-up"
             data-aos-duration="2200"
           >
@@ -60,12 +60,12 @@ export default function Home() {
           alt="hero"
           width={500}
           height={500}
-          className="w-full sticky top-0 left-0"
+          className="w-full sticky top-0 left-0 h-lvh object-cover md:h-auto"
           unoptimized
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col items-center justify-center bg-[#1E1E1Ebb]">
           <h1
-            className="text-6xl text-white font-black text-center w-1/2 relative"
+            className="md:text-6xl text-4xl text-white font-black text-center w-1/2 relative z-20"
             data-aos="zoom-out-up"
           >
             From our roastery to your cup, excellence is our standard.
@@ -77,7 +77,7 @@ export default function Home() {
             alt="hero"
             width={500}
             height={500}
-            className="w-72 rounded-lg absolute left-5 top-5 transition-all hover:blur-xs hover:scale-110"
+            className="md:w-72 w-52 rounded-lg absolute left-5 top-5 transition-all hover:blur-xs hover:scale-110"
           />
           <Image
             data-aos="flip-left"
@@ -86,7 +86,7 @@ export default function Home() {
             alt="hero"
             width={500}
             height={500}
-            className="w-64 rounded-lg absolute left-6 bottom-5 transition-all hover:blur-xs hover:scale-110"
+            className="md:w-64 w-48 rounded-lg absolute left-6 bottom-5 transition-all hover:blur-xs hover:scale-110"
           />
           <Image
             data-aos="flip-left"
@@ -95,7 +95,7 @@ export default function Home() {
             alt="hero"
             width={500}
             height={500}
-            className="w-72 rounded-lg absolute right-5 top-8 transition-all hover:blur-xs hover:scale-110"
+            className="md:w-72 w-52 hidden md:block rounded-lg absolute right-5 top-8 transition-all hover:blur-xs hover:scale-110"
           />
           <Image
             data-aos="flip-left"
@@ -104,7 +104,7 @@ export default function Home() {
             alt="hero"
             width={500}
             height={500}
-            className="w-52 rounded-lg absolute right-5 bottom-10 transition-all hover:blur-xs hover:scale-110"
+            className="w-52 rounded-lg hidden md:block absolute right-5 bottom-10 transition-all hover:blur-xs hover:scale-110"
           />
           <Image
             data-aos="flip-left"
@@ -126,11 +126,11 @@ export default function Home() {
           muted
           width={500}
           height={500}
-          className="w-full sticky top-0 left-0"
+          className="w-full sticky top-0 left-0 h-lvh object-cover md:h-auto "
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col gap-12 items-center justify-center bg-[#1E1E1Edd]">
           <h1
-            className="text-7xl text-white font-black text-center sticky top-0 left-0"
+            className="md:text-7xl text-4xl text-white font-black text-center sticky top-0 left-0"
             data-aos="zoom-out-up"
             data-aos-duration="2200"
           >

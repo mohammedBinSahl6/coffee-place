@@ -22,11 +22,11 @@ const OuStoryPage = () => {
           muted
           width={500}
           height={500}
-          className="w-full sticky top-0 left-0"
+          className="w-full sticky top-0 left-0 h-lvh object-cover md:h-auto"
         />
         <div className="absolute left-0 top-0 w-full h-full flex flex-col gap-12 items-center justify-center bg-[#1E1E1Edd]">
           <h1
-            className="text-7xl text-white font-black text-center sticky top-0 left-0"
+            className="md:text-7xl text-4xl text-white font-black text-center sticky top-0 left-0"
             data-aos="zoom-out-up"
             data-aos-duration="2200"
           >
